@@ -8,3 +8,5 @@ Below is a reference architecture.
 ![Architecture](img/architecture.png)
 
 For more on this overall topic, check out [PDFs to Production: Announcing state-of-the-art document intelligence on Databricks](https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks)
+
+This architecture was for a Proof of Concept and is not considered production level code.  For something more production ready, check out the link at the bottom of the PDFs to Production article referenced above.
