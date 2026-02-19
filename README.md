@@ -1,2 +1,6 @@
 # DatabricksPDF
-This repo is used for the ai_parse_document command
+The purpose of this repo is to showcase how you can take a PDF document such as a resume and using the [ai_parse_document function](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_parse_document), you can extract structured content from unstructured documents into a Delta table.   This is showcased in the [Parse Documents to Silver](/src/Parse Documents to Silver.ipynb) notebook.
+
+Using the [ai_query function](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query), you can further curate the data into separate field via LLMs.  This is showcased in the [PDF Gold](/src/PDF Gold.ipynb) notebook.
+
+For more on this overall topic, check out [PDFs to Production: Announcing state-of-the-art document intelligence on Databricks](https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks)
