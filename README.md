@@ -3,4 +3,8 @@ The purpose of this repo is to showcase how you can take a PDF document such as 
 
 Using the [ai_query function](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_query), you can further curate the data into separate fields via LLMs.  This is showcased in the [PDF Gold](src/PDF%20-%20Gold.ipynb) notebook.
 
+Below is a reference architecture.
+
+![Architecture](img/architecture.png)
+
 For more on this overall topic, check out [PDFs to Production: Announcing state-of-the-art document intelligence on Databricks](https://www.databricks.com/blog/pdfs-production-announcing-state-art-document-intelligence-databricks)
